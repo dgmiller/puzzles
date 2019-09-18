@@ -1,4 +1,5 @@
 def steps(number):
+# Testing the collatz conjecture. Returns number of steps it takes, when dividing even numbers by 2 and multiplying odd numbers by 3 and adding 1.
     n = 0
     
     while number != 1:

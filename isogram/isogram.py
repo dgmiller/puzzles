@@ -1,4 +1,6 @@
 def is_isogram(string):
+# tests if a word is an isogram
+    
     string1 = string.replace("-", "")
     string2 = string1.replace(" ", "")
     newstring = string2.lower()
@@ -9,5 +11,5 @@ def is_isogram(string):
         newn = newstring.count(letter)
         maxn = max(newn,maxn)
         
-    return(maxn)
+    return((maxn < 2))
         

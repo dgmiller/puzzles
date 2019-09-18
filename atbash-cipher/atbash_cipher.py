@@ -2,7 +2,8 @@
 master_string = "abcdefghijklmnopqrstuvwxyz"
     
 def encode(plain_text):
-    
+# encodes via the atbash cypher
+
     plain_text_out = plain_text.lower()
     
     word_out = ""
@@ -22,6 +23,7 @@ def encode(plain_text):
 
 
 def decode(ciphered_text):
+# decodes text encoded via the atbash cypher
     
     word_out = ""
     
