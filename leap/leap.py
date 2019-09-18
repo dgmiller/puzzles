@@ -7,9 +7,8 @@ def leap_year(year):
             if year%400==0:
                 is_leap = 1
     if is_leap == 1:
-        print(year,"is a leap year")
+        return(True)
     else:
-        print(year,"is not a leap year")
-
+        return(False)
 
 
