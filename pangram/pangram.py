@@ -11,4 +11,4 @@ def is_pangram(sentence):
     # ensure string is lowercase
     sentence = sentence.lower()
     
-    return set("abcdefghijklmnopqrstuvwxyz") in set(sentence)
+    return set("abcdefghijklmnopqrstuvwxyz") <= set(sentence)
